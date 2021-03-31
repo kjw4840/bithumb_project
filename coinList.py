@@ -9,6 +9,7 @@ def get_highest():
     coin_list = []
     for i in range(4,14) :
         coin_list.append(browser.find_element_by_xpath('//*[@id="sise_list"]/tbody/tr['+str(i)+']/td[1]/div/p/a/span').text)
+    coin_list=' '.join(coin_list).split()
     return coin_list
 
 
