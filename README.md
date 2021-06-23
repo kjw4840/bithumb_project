@@ -2,3 +2,11 @@
 
 빗썸 api를 이용한 암호화폐 자동매매 봇입니다.
 
+
+
+
+*거래대금 상위 종목 가져오기
+
+![image](https://user-images.githubusercontent.com/70616061/123029135-9a212100-d41b-11eb-8d2d-e4a79863f621.png)
+
+
