@@ -15,3 +15,8 @@
 ![image](https://user-images.githubusercontent.com/70616061/123029270-d2c0fa80-d41b-11eb-8b97-3c5e9eaffc47.png)
 
 
+*매수 and 체결/미체결 확인
+
+![image](https://user-images.githubusercontent.com/70616061/123030002-06505480-d41d-11eb-8427-0ef3f780fc50.png)
+
+![image](https://user-images.githubusercontent.com/70616061/123030042-15cf9d80-d41d-11eb-9bd2-a0bcaf0744ed.png)
