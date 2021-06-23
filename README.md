@@ -23,3 +23,11 @@
 *체결 / 미체결 확인
 
 ![image](https://user-images.githubusercontent.com/70616061/123030122-3861b680-d41d-11eb-8ee5-369c5e1e8201.png)
+
+
+
+*텔레그램 체결 알림
+
+![image](https://user-images.githubusercontent.com/70616061/123030205-60511a00-d41d-11eb-8ef8-15d46a17a5ef.png)
+
+![image](https://user-images.githubusercontent.com/70616061/123030216-6515ce00-d41d-11eb-8107-0b01c9fd25ec.png)
