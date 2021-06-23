@@ -1,13 +1,13 @@
-#매수,매도
+# 매수,매도
 import asyncio
 import web
 import fileOpen
 
-
 buy_transaction = []
 sell_transaction = []
 
-#매수
+
+# 매수
 def buy_Ticker(ticker, five_day, min_avg, balance):
     p = 0
     bithumb = fileOpen.file_opne()
@@ -51,10 +51,11 @@ def buy_Ticker(ticker, five_day, min_avg, balance):
         if (p == len(ticker)):
             p = 0
 
-#매도
+
+# 매도
 def sell_Ticker(ticker, asks):
-    up = asks * 0.01
-    down = asks * 0.01
+    up = asks * 0.03
+    down = asks * 0.05
     sell_order = []
     bithumb = fileOpen.file_opne()
     unit = bithumb.get_balance(ticker)[0]
@@ -77,6 +78,10 @@ def sell_Ticker(ticker, asks):
             if float(sell_transaction['contPrice']) > asks + up:
                 order = bithumb.sell_limit_order(ticker, bids, unit)
                 print("매도체결", order)
+                sell_order.append(order)
+                sell_order.append(ticker)
+                sell_order.append(bids)
+                sell_order.append(unit)
                 return sell_order
 
             elif float(sell_transaction['contPrice']) < asks - down:
@@ -91,5 +96,3 @@ def sell_Ticker(ticker, asks):
         except Exception as e:
             print(e)
             continue
-
-

@@ -12,11 +12,9 @@ def timer(*ticker):
     tic = ticker
     balance = bithumb.get_balance(str(tic).split('\'')[1])
     if balance[3] == 0:
-        print("loc 1")
         return True
     s += 1
     if s == 10:
-        print("loc 2")
         return False
     threading.Timer(10, timer,args=ticker,kwargs=None).start()
 

@@ -1,5 +1,4 @@
-# 5분봉
-import pybithumb
+# 3분봉
 import requests
 import pandas as pd
 

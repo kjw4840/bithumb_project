@@ -1,3 +1,4 @@
+#계좌정보 가져오기
 import fileOpen
 
 bithumb = fileOpen.file_opne()

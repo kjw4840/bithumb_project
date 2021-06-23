@@ -1,3 +1,5 @@
+#api 키
+
 import pybithumb
 def file_opne():
     f = open("bithumb.txt")
